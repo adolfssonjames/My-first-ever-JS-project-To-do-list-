@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <main id="content">
+      <header></header>
+      <h1>
+        Att göra lista
+      </h1>
+      <div id="the-input">
+        <label for="#to-do-input">Ange vad som ska göras</label>
+        <br />
+        <input id="to-do-input" type="text" placeholder="Att göra" />
+        <button id="to-do-btn">Lägg till Syssla</button>
+        <button id="reset-button">Återställ</button>
+      </div>
+
+      <div id="to-do-list">
+        <h3>Att göra</h3>
+        <ul id="the-list"></ul>
+      </div>
+
+      <div id="done-tasks">
+          <h3>Gjorda Sysslor</h3>
+        <ul id="the-done-list"></ul>
+      </div>
+    </main>
+
+    <script src="JS/main.js"></script>
+  </body>
+</html>

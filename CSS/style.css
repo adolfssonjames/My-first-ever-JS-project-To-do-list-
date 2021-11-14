@@ -1,0 +1,73 @@
+#content {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    background-color: rgb(241, 239, 63);
+    font-family:monospace;
+}
+
+button {
+    border-color: 1px solid black;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(247, 247, 247);
+    cursor:pointer;
+  font-size: 14px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+button:hover {
+    background-color: rgb(142, 255, 151);
+   
+    
+}
+
+#to-do-list { 
+        border: 1px solid black;
+   background-color: rgba(255, 167, 4, 0.336);
+   
+}
+
+#done-tasks {
+    border: 1px solid black;
+    background-color: rgba(128, 255, 0, 0.274);
+}
+#to-do-input {
+    border-radius: 8px;
+    border-style: none;
+}
+#to-do-list, #done-tasks  {
+    margin-top: 10px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
